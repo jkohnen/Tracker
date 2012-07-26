@@ -1,16 +1,12 @@
-﻿<!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html data-masterpage="_Master.html">
   <head>
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;" />
     <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
 
   	<title>Testing</title>
-  	
-		<script type="text/javascript">
-			var masterPage = "_Master.html";
-		</script>
-		<script src="js/jquery.min.js" type="text/javascript"></script>
-  	<script type="text/javascript" charset="utf-8" src="bootstrap.js"></script>
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+  	<script src="bootstrap.js" type="text/javascript" charset="utf-8"></script>
 
   </head>
   <body>
@@ -29,28 +25,12 @@
   				crossdomain: true,
   				cache: false,
   				url: serviceUri
-  			}).done(function (stuff) {
-  				alert("done! " + stuff);
+  			}).done(function (stuff) {  				
   				loadList(stuff);
-  			  			});
-//  			loadList(userList)
-  		  		});
+  			  	});
+  		  	});
 
-//  		var userList = [{ "name": "Justin Kohnen",
-//  			"description": "31 year old male.",
-//  			"letter": "K"
-//  		},
-//{
-//	"name": "Billy Kohnen",
-//	"description": "16 year old male.",
-//	"letter": "K"
-//},
-//{
-//	"name": "Sarah Kohnen",
-//	"description": "24 year old female.",
-//	"letter": "K"
-//},
-//]
+
 
   		function loadList(memberData) {
 				$("#custom-listview").kendoMobileListView({
