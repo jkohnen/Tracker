@@ -27,12 +27,22 @@ loadjsfile("cordova-1.8.0.js");
 loadjsfile("js/kendo.mobile.min.js");
 
 function onDeviceReady() {
-    var masterPage = $('html').data('masterpage');
-	if (masterPage) {
-		$.get(masterPage, function (template) {
-			$("body").append(template);
-		});
-	}
+//    var masterPage = $('html').data('masterpage');
+//    if (masterPage) {
+//    	$.get(masterPage, function (template) {
+//			$("body").append(template);
+//			});
+
+//    	loadjsfile(masterPage);
+
+//		$.ajax({
+//			url: masterPage,
+//			dataType: "html",
+//			success : function (template) {
+//					$("body").append(template);
+//				}	 
+//			});
+//	}
 
 }
 
