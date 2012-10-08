@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- This file is auto-generated, do not edit! -jm -->
 <CordovaSourceDictionary>
-    <FilePath Value="www\bootstrap.js"/>
     <FilePath Value="www\index.html"/>
-    <FilePath Value="www\index1.html"/>
-    <FilePath Value="www\index3.html"/>
     <FilePath Value="www\kendo_js\cultures\kendo.culture.af-ZA.min.js"/>
     <FilePath Value="www\kendo_js\cultures\kendo.culture.af.min.js"/>
     <FilePath Value="www\kendo_js\cultures\kendo.culture.am-ET.min.js"/>
@@ -395,8 +392,6 @@
     <FilePath Value="www\kendo_styles\kendo.mobile.blackberry.min.css"/>
     <FilePath Value="www\kendo_styles\kendo.mobile.ios.min.css"/>
     <FilePath Value="www\kendo_styles\kendo.mobile.meego.min.css"/>
-    <FilePath Value="www\_Master.html"/>
     <FilePath Value="www\cordova-1.8.0.js"/>
-    <FilePath Value="www\index2.html"/>
     <FilePath Value="www\master.css"/>
 </CordovaSourceDictionary>

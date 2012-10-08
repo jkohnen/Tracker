@@ -97,12 +97,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="CordovaSourceDictionary.xml" />
-    <Content Include="www\bootstrap.js" />
     <Content Include="www\index.html" />
-    <Content Include="www\index1.html">
-      <SubType>Designer</SubType>
-    </Content>
-    <Content Include="www\index3.html" />
     <Content Include="www\kendo_js\cultures\kendo.culture.af-ZA.min.js" />
     <Content Include="www\kendo_js\cultures\kendo.culture.af.min.js" />
     <Content Include="www\kendo_js\cultures\kendo.culture.am-ET.min.js" />
@@ -497,13 +492,9 @@
     <Content Include="www\kendo_styles\kendo.mobile.ios.min.css" />
     <Content Include="www\kendo_styles\kendo.mobile.meego.min.css" />
     <Resource Include="www\styles\images\Beer_Icons_Sprite_48px.png" />
-    <Content Include="www\_Master.html" />
     <None Include="BuildManifestProcessor.js" />
     <Content Include="GapLib\WP7CordovaClassLib.dll" />
     <Content Include="www\cordova-1.8.0.js" />
-    <Content Include="www\index2.html">
-      <SubType>Designer</SubType>
-    </Content>
     <Content Include="www\master.css" />
     <None Include="cordova\debug.bat" />
     <None Include="cordova\emulate.bat" />
