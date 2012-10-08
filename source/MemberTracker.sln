@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "www", "Tracker.PhoneGap\www\", "{F12F4CDD-6028-4896-AD22-219622A652C9}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/www"
+		Debug.AspNetCompiler.PhysicalPath = "Tracker.PhoneGap\www\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\www\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/www"
+		Release.AspNetCompiler.PhysicalPath = "Tracker.PhoneGap\www\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\www\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "21147"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemberTracker", "Tracker.PhoneGap\MemberTracker.csproj", "{5C3B7CC6-1DA9-43C1-A0B4-2BE189300DB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tracker.Web", "Tracker.Web\Tracker.Web.csproj", "{199D8588-F215-4EA2-ACF9-618AB74494EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F12F4CDD-6028-4896-AD22-219622A652C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F12F4CDD-6028-4896-AD22-219622A652C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F12F4CDD-6028-4896-AD22-219622A652C9}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{F12F4CDD-6028-4896-AD22-219622A652C9}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{5C3B7CC6-1DA9-43C1-A0B4-2BE189300DB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C3B7CC6-1DA9-43C1-A0B4-2BE189300DB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C3B7CC6-1DA9-43C1-A0B4-2BE189300DB0}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5C3B7CC6-1DA9-43C1-A0B4-2BE189300DB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C3B7CC6-1DA9-43C1-A0B4-2BE189300DB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C3B7CC6-1DA9-43C1-A0B4-2BE189300DB0}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{199D8588-F215-4EA2-ACF9-618AB74494EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{199D8588-F215-4EA2-ACF9-618AB74494EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{199D8588-F215-4EA2-ACF9-618AB74494EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{199D8588-F215-4EA2-ACF9-618AB74494EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
